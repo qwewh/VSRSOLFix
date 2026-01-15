@@ -17,6 +17,12 @@
 - 服务器上已安装 **Anaconda** 或 **Miniconda**
 - Conda 已在当前 Shell 中初始化（可以运行 `conda` 命令）
 
+### 重要提示
+
+1. 目前仅在 **VS Code** 和 **VS Code Insider** 上测试通过，其他 VS Code 衍生版本尚未测试
+2. 如果在使用远程连接过程中升级或安装插件时提示签名问题，可以尝试临时关闭 VS Code 的签名验证设置，但本脚本不对更改设置后的结果负责
+3. 某些情况下，执行脚本后可能需要删除 `~/.vscode-server` 或 `~/.vscode-server-insiders` 文件夹。是否删除这些文件夹请根据您的实际情况自行判断
+
 ### 使用方法
 
 1. **下载脚本到服务器**
@@ -53,6 +59,12 @@ Newer versions of VS Code Server require higher versions of `glibc` and `libstdc
 
 - **Anaconda** or **Miniconda** installed on the server
 - Conda initialized in the current shell (the `conda` command works)
+
+### Important Notes
+
+1. Currently only tested on **VS Code** and **VS Code Insider**. Other VS Code forks have not been tested
+2. If you encounter signature issues when upgrading or installing extensions during remote connection, you can try temporarily disabling VS Code's signature verification settings, but this script is not responsible for the consequences of changing these settings
+3. In some cases, you may need to delete the `~/.vscode-server` or `~/.vscode-server-insiders` folder after running the script. Whether to delete these folders should be determined based on your specific situation
 
 ### Usage
 
